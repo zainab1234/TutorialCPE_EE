@@ -12,5 +12,9 @@ int c=sum(a,b);
 int d=sub(a,b);
 cout<<"sum is "<<c;
 cout<<"subtract is"<<d;
-getch();
+_getch();
+}
+int sum(int a, int b)
+{
+return a+b;
 }

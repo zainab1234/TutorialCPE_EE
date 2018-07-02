@@ -1,20 +1,16 @@
-﻿Build started 7/2/2018 9:50:11 AM.
+﻿Build started 7/2/2018 10:11:17 AM.
      1>Project "C:\Users\Zainab Saleem\Desktop\git project\git testing\git testing\git testing.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\git testing.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\git testing.unsuccessfulbuild".
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
          test.cpp
-     1>c:\users\zainab saleem\desktop\git project\git testing\git testing\test.cpp(15): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Zainab Saleem\Desktop\git project\git testing\Debug\git testing.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\git testing.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Zainab Saleem\Desktop\git project\git testing\Debug\git testing.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Zainab Saleem\Desktop\git project\git testing\Debug\git testing.lib" /MACHINE:X86 Debug\test.obj
-         LINK : C:\Users\Zainab Saleem\Desktop\git project\git testing\Debug\git testing.exe not found or not built by the last incremental link; performing full link
      1>test.obj : error LNK2019: unresolved external symbol "int __cdecl sub(int,int)" (?sub@@YAHHH@Z) referenced in function _main
-     1>test.obj : error LNK2019: unresolved external symbol "int __cdecl sum(int,int)" (?sum@@YAHHH@Z) referenced in function _main
-     1>C:\Users\Zainab Saleem\Desktop\git project\git testing\Debug\git testing.exe : fatal error LNK1120: 2 unresolved externals
+     1>C:\Users\Zainab Saleem\Desktop\git project\git testing\Debug\git testing.exe : fatal error LNK1120: 1 unresolved externals
      1>Done Building Project "C:\Users\Zainab Saleem\Desktop\git project\git testing\git testing\git testing.vcxproj" (build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:03.55
+Time Elapsed 00:00:00.72
